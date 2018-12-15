@@ -21,7 +21,7 @@ public class Paquete {
 		this.fecha = fecha;
 		this.courier = courier;
 		this.factura = factura;
-		
+		this.prealerta = false;		
 	}
 
 	public Paquete() {
@@ -34,7 +34,9 @@ public class Paquete {
 		this.cuenta = cuenta;
 		this.fecha = fecha;
 		this.courier = courier;
-		this.factura = factura;	}
+		this.factura = factura;
+		this.prealerta = false;
+	}
 	
 	/**
 	 * @return the prealerta
